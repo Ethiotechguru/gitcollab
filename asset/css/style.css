@@ -17,6 +17,16 @@ img{
     background-color: purple;
     padding: 20px;
 }
+.logo{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-shadow: 10px -10px 25px rgb(218, 89, 228);
+}
+.header{
+    background-color: black;
+    padding: 10px;
+}
 /* .header-items_list a:hover,
 .header-items_list a:active{
     padding: 6px;
