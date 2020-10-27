@@ -10,7 +10,7 @@ img{
 .footer-items_list a:active{
     background-color: aqua;
     padding: 6px;
-    color: black;
+    color: rgb(128, 123, 123);
 }
 .footer-items_list{
     display: inline;
