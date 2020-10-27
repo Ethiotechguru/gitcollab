@@ -1,7 +1,8 @@
 img{
     width: 30%;
 }
-.footer-items_list a{
+.footer-items_list a,
+.header-items_list a{
     text-decoration: none;
     color: white;
 }
@@ -12,7 +13,26 @@ img{
     padding: 6px;
     color: rgb(128, 123, 123);
 }
-.footer-items_list{
+.header-items{
+    background-color: purple;
+    padding: 20px;
+}
+/* .header-items_list a:hover,
+.header-items_list a:active{
+    padding: 6px;
+    color: white;
+} */
+.header-items_list:hover{
+    background-color: black;
+    box-shadow: none;
+}
+.header-items_list{
+  box-shadow: 10px 10px 20px black;
+  border-radius: 6px;
+  background-color: rgb(213, 90, 224);
+}
+
+.footer-items_list,.header-items_list{
     display: inline;
     padding: 10px;
     margin: 15px;
