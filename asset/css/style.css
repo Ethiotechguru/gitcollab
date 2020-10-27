@@ -1,0 +1,24 @@
+img{
+    width: 30%;
+}
+/* .img-container{
+    float: left;
+    clear: both;
+} */
+.prod-item, .cart{
+    background-color: rgb(104, 184, 90);
+    width: 60%;;
+    margin: 10px auto;
+    padding: 10px;
+}
+.prod-list{
+    background-color: lightBlue;
+}
+.cart{
+    background-color: rgb(145, 71, 194);
+}
+.cart button{
+    background-color:rgb(126, 211, 126);
+    color: rgb(51, 49, 49);
+    outline: none;
+}
