@@ -1,3 +1,8 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 img{
     width: 30%;
 }
@@ -23,7 +28,7 @@ img{
     font-size: 2.5rem;
     text-shadow: 10px -10px 25px rgb(218, 89, 228);
 }
-.header{
+.header, .footer{
     background-color: black;
     padding: 10px;
 }
@@ -48,11 +53,16 @@ img{
     margin: 15px;
     font-size: 1.5rem;
 }
+
 .footer-items{
     background-color: rgb(148, 139, 139);
     padding: 20px;
     width: 100%;
+    box-sizing: border-box;
 }
+/* .footer{
+    width: 100%;
+} */
 .prod-item, .cart{
     background-color: rgb(104, 184, 90);
     width: 60%;;
